@@ -1,6 +1,6 @@
 {
   "name": "🎵 PlaylistApp",
-  "image": "mcr.microsoft.com/devcontainers/dotnet:1-10.0",
+  "image": "mcr.microsoft.com/dotnet/sdk:10.0",
 
   // ── Fonctionnalités installées dans le conteneur ──────────────────────────
   "features": {
@@ -74,9 +74,6 @@
       "onAutoForward": "ignore"
     }
   },
-
-  // ── Sécurité : utilisateur non-root ──────────────────────────────────────
-  "remoteUser": "vscode",
 
   // ── Variables d'environnement disponibles dans le conteneur ──────────────
   "remoteEnv": {

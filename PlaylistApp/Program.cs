@@ -214,8 +214,9 @@ void TrierParDuree()
     pl.Display();
 }
 
-void RechercherParGenre()
-{
-    
-}
+
+
+
+
+
 

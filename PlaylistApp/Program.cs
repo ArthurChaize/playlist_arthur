@@ -213,10 +213,3 @@ void TrierParDuree()
     Console.WriteLine($"  ✅  Playlist « {pl.Nom} » triée par durée !");
     pl.Display();
 }
-
-
-
-
-
-
-

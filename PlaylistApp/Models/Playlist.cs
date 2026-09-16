@@ -104,4 +104,15 @@ public class Playlist
         for (int i = 0; i < _chansons.Count; i++)
             Console.WriteLine($"  {i + 1,2}. {_chansons[i]}");
     }
+
+    public void TrierParDuree() {
+        _chansons.Sort((a, b) => a.DureeSecondes.CompareTo(b.DureeSecondes));
+    }
+
+    public void RechercheParGenre(string genre) {
+        var chansons = _chansons.Where(s => s.Genre.Equals(genre, StringComparison.OrdinalIgnoreCase));
+        foreach (var chanson in chansons)
+            Console.WriteLine($"  {chanson}");
+    }
+
 }
